@@ -21,7 +21,7 @@ app.use(express.json());
 
 // Middleware
 app.use(cors({
-    origin: process.env.FRONTEND_URL || '*',
+    origin: process.env.FRONTEND_URL || 'https://kanban-js-frontend.vercel.app/',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));

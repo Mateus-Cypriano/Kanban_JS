@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // URL base do seu backend
-    const API_BASE_URL = 'http://localhost:3000/api';
+    const API_BASE_URL = 'https://kanban-js.onrender.com/';
 
     const loginForm = document.getElementById('loginForm');
     const logoutButton = document.getElementById('logoutButton');
